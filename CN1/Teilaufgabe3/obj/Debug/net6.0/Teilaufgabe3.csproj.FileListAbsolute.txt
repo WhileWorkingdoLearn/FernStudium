@@ -1,0 +1,15 @@
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN1\Teilaufgabe3\bin\Debug\net6.0\Teilaufgabe3.exe
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN1\Teilaufgabe3\bin\Debug\net6.0\Teilaufgabe3.deps.json
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN1\Teilaufgabe3\bin\Debug\net6.0\Teilaufgabe3.runtimeconfig.json
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN1\Teilaufgabe3\bin\Debug\net6.0\Teilaufgabe3.dll
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN1\Teilaufgabe3\bin\Debug\net6.0\Teilaufgabe3.pdb
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN1\Teilaufgabe3\obj\Debug\net6.0\Teilaufgabe3.csproj.AssemblyReference.cache
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN1\Teilaufgabe3\obj\Debug\net6.0\Teilaufgabe3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN1\Teilaufgabe3\obj\Debug\net6.0\Teilaufgabe3.AssemblyInfoInputs.cache
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN1\Teilaufgabe3\obj\Debug\net6.0\Teilaufgabe3.AssemblyInfo.cs
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN1\Teilaufgabe3\obj\Debug\net6.0\Teilaufgabe3.csproj.CoreCompileInputs.cache
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN1\Teilaufgabe3\obj\Debug\net6.0\Teilaufgabe3.dll
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN1\Teilaufgabe3\obj\Debug\net6.0\refint\Teilaufgabe3.dll
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN1\Teilaufgabe3\obj\Debug\net6.0\Teilaufgabe3.pdb
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN1\Teilaufgabe3\obj\Debug\net6.0\Teilaufgabe3.genruntimeconfig.cache
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN1\Teilaufgabe3\obj\Debug\net6.0\ref\Teilaufgabe3.dll
