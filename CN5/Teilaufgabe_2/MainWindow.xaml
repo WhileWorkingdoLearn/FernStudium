@@ -1,0 +1,23 @@
+﻿<Window x:Class="CN5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CN5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="20 10 20 0">
+            <CheckBox Margin="20,0">Sortieren nach Gruppe</CheckBox>
+            <CheckBox Margin="20,0">Nur Freunde anzeigen</CheckBox>
+        </StackPanel>
+        <TextBlock Margin="10,18,0,0" FontWeight="Bold">Kontakte:</TextBlock>
+        <ListBox Margin="20 10 0 0" Width="600"
+            IsSynchronizedWithCurrentItem="True"
+            BorderBrush="DarkSlateGray" BorderThickness="1"
+            ItemsSource="{Binding Path=Contacts}" />
+        <TextBlock Margin="10,20,0,0" FontWeight="Bold">Details:</TextBlock>
+        <ContentControl Content="{Binding Path=Contacts.CurrentItem}" />
+    </StackPanel>
+</Window>

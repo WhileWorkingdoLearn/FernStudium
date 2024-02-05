@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfWarrior xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Warrior Name="Gimli">
+    <Weapons>
+      <Weapon>
+        <Type>battleaxe</Type>
+        <Range>Middle</Range>
+      </Weapon>
+      <Weapon>
+        <Type>knife</Type>
+        <Range>Short</Range>
+      </Weapon>
+    </Weapons>
+  </Warrior>
+  <Warrior Name="Legolas">
+    <Weapons>
+      <Weapon>
+        <Type>longbow</Type>
+        <Range>Long</Range>
+      </Weapon>
+      <Weapon>
+        <Type>knife</Type>
+        <Range>Short</Range>
+      </Weapon>
+    </Weapons>
+  </Warrior>
+</ArrayOfWarrior>

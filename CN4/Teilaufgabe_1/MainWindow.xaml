@@ -1,0 +1,67 @@
+﻿<Window x:Class="Teilaufgabe_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Teilaufgabe_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        KeyDown="Window_KeyDown"
+        >
+    <Window.Resources>
+        <RoutedUICommand x:Key="StartCommand"></RoutedUICommand>
+        <RoutedUICommand x:Key="StopCommand"></RoutedUICommand>
+        <RoutedUICommand x:Key="ShowCellsCommand"></RoutedUICommand>
+
+        <RoutedUICommand x:Key="AccelerateCommand"></RoutedUICommand>
+        <RoutedUICommand x:Key="DecelerateCommand"></RoutedUICommand>
+
+        <RoutedUICommand x:Key="LoadCommand"></RoutedUICommand>
+        <RoutedUICommand x:Key="SaveCommand"></RoutedUICommand>
+        <RoutedUICommand x:Key="ClearCommand"></RoutedUICommand>
+        <RoutedUICommand x:Key="ExitCommand"></RoutedUICommand>
+
+
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="{StaticResource StartCommand}" Executed="StartSimulation"/>
+        <CommandBinding Command="{StaticResource StopCommand}" Executed="StopSimulation"/>
+        <CommandBinding Command="{StaticResource ShowCellsCommand}" Executed="SetShowCellstate"/>
+        <CommandBinding Command="{StaticResource AccelerateCommand}" Executed="AccelerateSimulation"/>
+        <CommandBinding Command="{StaticResource DecelerateCommand}" Executed="DecelerateSimulation"/>
+
+        <CommandBinding Command="{StaticResource LoadCommand}" Executed="Load"/>
+        <CommandBinding Command="{StaticResource SaveCommand}" Executed="Save"/>
+
+        <CommandBinding Command="{StaticResource ClearCommand}" Executed="Clear"/>
+        <CommandBinding Command="{StaticResource ExitCommand}" Executed="Exit"/>
+    </Window.CommandBindings>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Map">
+                <MenuItem Header="_Clear"  Command="{StaticResource ClearCommand}"/>
+                <MenuItem Header="_Load"  Command="{StaticResource LoadCommand}"/>
+                <MenuItem Header="_Save" Command="{StaticResource SaveCommand}"/>
+                <MenuItem Header="_Exit" Command="{StaticResource ExitCommand}" />
+            </MenuItem>
+            <MenuItem Header="_Simulation">
+                <MenuItem Name="StartItem" Header="_Start"  Command="{StaticResource StartCommand}"/>
+                <MenuItem Name="EndItem" Header="_Stop"  Command="{StaticResource StopCommand}"/>
+                <MenuItem Header="_Accelerate (Up)" Command="{StaticResource AccelerateCommand}"/>
+                <MenuItem Header="_Decelerate (Down)" Command="{StaticResource DecelerateCommand}" />
+            </MenuItem>
+            <CheckBox Content="Show cell States" Command="{StaticResource ShowCellsCommand}"></CheckBox>
+        </Menu>
+        <UniformGrid DockPanel.Dock="Top"  HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="Auto" Height="Auto" x:Name="Test" 
+                 MouseLeftButtonDown="CellClickedEventHandler">
+        </UniformGrid>
+        <StatusBar DockPanel.Dock="Bottom" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" >
+            <StatusBarItem  Content="Generation"/>
+            <StatusBarItem x:Name="GenerationValue" Content="0"/>
+            <StatusBarItem Content="Interval"/>
+            <StatusBarItem x:Name= "TimeValue" Content="0"/>
+            <StatusBarItem Content="File"/>
+            <StatusBarItem Content="FValue"/>
+        </StatusBar>
+    </DockPanel>
+</Window>

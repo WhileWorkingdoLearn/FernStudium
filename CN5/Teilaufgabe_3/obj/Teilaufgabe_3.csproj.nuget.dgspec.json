@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Programmieren\\Projects\\dotNet\\Einsendeaufgaben\\CN5\\Teilaufgabe_3\\Teilaufgabe_3.csproj": {}
+  },
+  "projects": {
+    "D:\\Programmieren\\Projects\\dotNet\\Einsendeaufgaben\\CN5\\MyCustomControls\\MyCustomControls.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programmieren\\Projects\\dotNet\\Einsendeaufgaben\\CN5\\MyCustomControls\\MyCustomControls.csproj",
+        "projectName": "MyCustomControls",
+        "projectPath": "D:\\Programmieren\\Projects\\dotNet\\Einsendeaufgaben\\CN5\\MyCustomControls\\MyCustomControls.csproj",
+        "packagesPath": "C:\\Users\\s_ms\\.nuget\\packages\\",
+        "outputPath": "D:\\Programmieren\\Projects\\dotNet\\Einsendeaufgaben\\CN5\\MyCustomControls\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\s_ms\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programmieren\\Projects\\dotNet\\Einsendeaufgaben\\CN5\\Teilaufgabe_3\\Teilaufgabe_3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programmieren\\Projects\\dotNet\\Einsendeaufgaben\\CN5\\Teilaufgabe_3\\Teilaufgabe_3.csproj",
+        "projectName": "Teilaufgabe_3",
+        "projectPath": "D:\\Programmieren\\Projects\\dotNet\\Einsendeaufgaben\\CN5\\Teilaufgabe_3\\Teilaufgabe_3.csproj",
+        "packagesPath": "C:\\Users\\s_ms\\.nuget\\packages\\",
+        "outputPath": "D:\\Programmieren\\Projects\\dotNet\\Einsendeaufgaben\\CN5\\Teilaufgabe_3\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\s_ms\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\Programmieren\\Projects\\dotNet\\Einsendeaufgaben\\CN5\\MyCustomControls\\MyCustomControls.csproj": {
+                "projectPath": "D:\\Programmieren\\Projects\\dotNet\\Einsendeaufgaben\\CN5\\MyCustomControls\\MyCustomControls.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

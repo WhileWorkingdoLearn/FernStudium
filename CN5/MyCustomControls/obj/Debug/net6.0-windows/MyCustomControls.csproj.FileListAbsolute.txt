@@ -1,0 +1,17 @@
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\bin\Debug\net6.0-windows\MyCustomControls.deps.json
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\bin\Debug\net6.0-windows\MyCustomControls.dll
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\bin\Debug\net6.0-windows\MyCustomControls.pdb
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\obj\Debug\net6.0-windows\MyCustomControls.csproj.AssemblyReference.cache
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\obj\Debug\net6.0-windows\MyCustomControls_MarkupCompile.cache
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\obj\Debug\net6.0-windows\MyCustomControls_MarkupCompile.lref
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\obj\Debug\net6.0-windows\Themes\Generic.baml
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\obj\Debug\net6.0-windows\MyCustomControls.g.resources
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\obj\Debug\net6.0-windows\MyCustomControls.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\obj\Debug\net6.0-windows\MyCustomControls.AssemblyInfoInputs.cache
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\obj\Debug\net6.0-windows\MyCustomControls.AssemblyInfo.cs
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\obj\Debug\net6.0-windows\MyCustomControls.csproj.CoreCompileInputs.cache
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\obj\Debug\net6.0-windows\MyCustomControls.dll
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\obj\Debug\net6.0-windows\refint\MyCustomControls.dll
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\obj\Debug\net6.0-windows\MyCustomControls.pdb
+D:\Programmieren\Projects\dotNet\Einsendeaufgaben\CN5\MyCustomControls\obj\Debug\net6.0-windows\ref\MyCustomControls.dll
